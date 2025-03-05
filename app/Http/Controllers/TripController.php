@@ -52,9 +52,7 @@ class TripController extends Controller
             ->with('success', 'Trajet créé avec succès.');
     }
 
-    /**
-     * Display the specified resource.
-     */
+   
     public function show(Trip $trip)
     {
         $this->authorize('view', $trip);
