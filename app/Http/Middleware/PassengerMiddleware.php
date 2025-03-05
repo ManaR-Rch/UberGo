@@ -11,7 +11,7 @@ class PassengerMiddleware
     {
         if (!auth()->check() || !auth()->user()->isPassenger()) {
             return redirect()->route('dashboard')
-                ->with('error', 'Vous n\'avez pas accès à cette section.');
+                ->with('error', 'Vous n\'avez pa s accès à cette section.');
         }
 
         return $next($request);
