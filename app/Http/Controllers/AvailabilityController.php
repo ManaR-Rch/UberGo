@@ -53,6 +53,6 @@ class AvailabilityController extends Controller
         
         $availability->delete();
         
-        return redirect()->route('availabilities.index')->with('success', 'Disponibilité supprimée avec succès!');
+        return redirect()->route('availabilities.index')->with('success', 'Disponib ilité supprimée avec succès!');
     }
 }
