@@ -66,7 +66,7 @@
                                             Annuler
                                         </button>
                                         
-                                        <!-- Modal de confirmation d'annulation -->
+                                      
                                         <div class="modal fade" id="cancelBookingModal{{ $booking->id }}" tabindex="-1" aria-hidden="true">
                                             <div class="modal-dialog">
                                                 <div class="modal-content">
