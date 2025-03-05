@@ -14,6 +14,7 @@ class Reservation extends Model
         'trip_id',
         'seats_reserved',
         'status'
+        
     ];
 
     public function passenger()
